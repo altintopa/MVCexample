@@ -19,8 +19,8 @@ class NetworkService {
         DispatchQueue.global().async {
             sleep(1)
             DispatchQueue.main.async {
-                if email == "test@test.com" && password == "password"{
-                    self.user = User(firstName: "Ahmet", lastName: "ALTINTOP", eMail: "1634ahmt@gmail.com", age: 30, Location: "Yok")
+                if email == "thatsMe@altintop.com" && password == "not1234"{
+                    self.user = User(firstName: "Kâmil", lastName: "Ka", eMail: "Woow@gmail.com", age: 30, Location: "Nope !")
                     completion(true)
                     
                 } else {
